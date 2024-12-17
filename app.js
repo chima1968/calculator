@@ -100,11 +100,12 @@ solve.addEventListener(
             currentValue = '';                  // Reset current value
             updateinputfield(result);           // Show the final result
         }
-        else if (){
+        else if (operator='*'){
             result=result*parseFloat(currentValue)
             currentValue=''
             updateinputfield(result)
         }
+       updateinputfield(result)
         operator = null; 
     }
 )
